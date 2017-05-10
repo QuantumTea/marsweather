@@ -7,6 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alison Hawke",
-  "repository": "",
+  "repository": "https://github.com/QuantumTea/martianweather.git",
   "license": "ISC"
 }
