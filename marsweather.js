@@ -12,4 +12,4 @@ var fromFile = fs.readFileSync('./mars_weather.json', 'utf8', err => {
 
 //console.log(fromFile)
 var jsonObject = JSON.parse(fromFile)
-console.log("On sol: " + jsonObject.report.sol + "the max temp was: " + jsonObject.report.max_temp + "C")
+console.log("On Martian sol " + jsonObject.report.sol + " the max temp was " + jsonObject.report.max_temp + " Celsius")
