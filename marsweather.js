@@ -13,3 +13,4 @@ var fromFile = fs.readFileSync('./mars_weather.json', 'utf8', err => {
 //console.log(fromFile)
 var jsonObject = JSON.parse(fromFile)
 console.log("On Martian sol " + jsonObject.report.sol + " the max temp was " + jsonObject.report.max_temp + " Celsius")
+console.log("Martian sol " + jsonObject.report.sol + " equates to Earth date: " + jsonObject.report.terrestrial_date)
